@@ -1,15 +1,19 @@
 # Double sum of squares benchmarks [![Build Status](https://travis-ci.com/igabaydulin/double-sum-of-squares-jmh.svg?branch=master)](https://travis-ci.com/igabaydulin/double-sum-of-squares-jmh) [![Version](https://img.shields.io/badge/version-0.1-color.svg)](https://github.com/igabaydulin/double-sum-of-squares-jmh/releases/tag/0.1)
 Based on stackoverflow's question [Why is 2 * (i * i) faster than 2 * i * i in Java?](https://stackoverflow.com/questions/53452713/why-is-2-i-i-faster-than-2-i-i-in-java)
 
-## Tests execution
+## Tests Execution
 ```
 ./gradlew clean test
 ```
 
-## Benchmarks execution
+## Benchmarks Execution
 ```
 ./gradlew clean jmh
 ```
+
+## Github Actions
+You can view benchmarks and tests result on Github Actions [page](https://github.com/igabaydulin/double-sum-of-squares-jmh/actions)
+[Example](https://github.com/igabaydulin/double-sum-of-squares-jmh/runs/52401832) of JMH benchmarks output
 
 ## Requirements
 - Java 11 (at least): As was mentioned in stackoverflow's discussion new JIT compiler (GraalVM) successfully optimizes
