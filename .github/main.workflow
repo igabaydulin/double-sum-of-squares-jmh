@@ -5,7 +5,7 @@ workflow "Main" {
 
 action "test" {
   uses = "docker://openjdk:11"
-  runs = "./gradlew clean test"
+  runs = "./gradlew clean test --stacktrace"
 }
 
 action "jmh" {
