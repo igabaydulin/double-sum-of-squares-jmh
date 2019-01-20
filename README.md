@@ -16,7 +16,7 @@ Based on stackoverflow's question [Why is 2 * (i * i) faster than 2 * i * i in J
 both cases, and to be able execute benchmarks with GraalVM enabled Java 11 must be used
 
 ## Configuration
-To change JMH execution configuration edit [build.gradle](https://github.com/igabaydulin/double-sum-of-squares-jmh/blob/master/build.gradle) file:
+To change JMH execution configuration edit [build.gradle](https://github.com/igabaydulin/double-sum-of-squares-jmh/blob/master/build.gradle#L33) file:
 ```
 jmh {
     warmupIterations = 4
