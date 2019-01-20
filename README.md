@@ -25,6 +25,14 @@ jmh {
 }
 ```
 
+You also can try to speed up benchmarks by changing the next constant:
+```
+public class ConstantStorage {
+
+    public static final int COUNT = 10000;
+}
+```
+
 ## Output
 Example of JMH output (exact values may vary and depend on many factors):
 ```
