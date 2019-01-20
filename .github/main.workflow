@@ -1,4 +1,4 @@
-workflow "Default" {
+workflow "Main" {
   on = "push"
   resolves = ["jmh", "test"]
 }
