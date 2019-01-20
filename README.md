@@ -1,4 +1,4 @@
-# Double sum of squares benchmarks [![Build Status](https://travis-ci.com/igabaydulin/double-sum-of-squares-jmh.svg?branch=master)](https://travis-ci.com/igabaydulin/double-sum-of-squares-jmh) [![Version](https://img.shields.io/badge/version-0.1-color.svg)](https://github.com/igabaydulin/double-sum-of-squares-jmh)
+# Double sum of squares benchmarks [![Build Status](https://travis-ci.com/igabaydulin/double-sum-of-squares-jmh.svg?branch=master)](https://travis-ci.com/igabaydulin/double-sum-of-squares-jmh) [![Version](https://img.shields.io/badge/version-0.1-color.svg)](https://github.com/igabaydulin/double-sum-of-squares-jmh/releases/tag/0.1)
 Based on stackoverflow's question [Why is 2 * (i * i) faster than 2 * i * i in Java?](https://stackoverflow.com/questions/53452713/why-is-2-i-i-faster-than-2-i-i-in-java)
 
 ## Tests execution
