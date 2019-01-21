@@ -13,7 +13,8 @@ Based on stackoverflow's question [Why is 2 * (i * i) faster than 2 * i * i in J
 
 ## Github Actions
 You can view benchmarks and tests result on Github Actions [page](https://github.com/igabaydulin/double-sum-of-squares-jmh/actions)
- [Example](https://github.com/igabaydulin/double-sum-of-squares-jmh/runs/52401832) of JMH benchmarks output
+ 
+[Example](https://github.com/igabaydulin/double-sum-of-squares-jmh/runs/52401832) of JMH benchmarks output
 
 ## Requirements
 - Java 11 (at least): As was mentioned in stackoverflow's discussion new JIT compiler (GraalVM) successfully optimizes
